@@ -8,7 +8,7 @@ from utils.config import *
 from utils.config_downstream import *
 from utils.dataset import *
 from utils.MDFCA import *
-from utils.models import CNN, BiGRU
+from utils.cnn_Bigru import *
 
 # Function to save models
 def save_models(bigru_model, cnn_models, fc_layer,cross_attention):
