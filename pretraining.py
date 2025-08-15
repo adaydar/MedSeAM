@@ -7,7 +7,7 @@ from torch.optim.lr_scheduler import StepLR
 from utils.config import *
 from utils.dataset import *
 from utils.MDFCA import *
-from utils.models import *
+from utils.cnn_Bigru import *
 
 # Initialize CNN models
 cnn_models = CNN().cuda()
